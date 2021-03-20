@@ -7,7 +7,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
           'washington': 'washington.csv' }
 
 def get_filters():
-   print('Hello! Let\'s explore some US bikeshare data!')
+   print('Greetings! Let\'s explore some US bikeshare data!')
     
    city = input("Please select which city you would like to study: ").lower()
 
