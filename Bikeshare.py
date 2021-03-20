@@ -7,7 +7,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
           'washington': 'washington.csv' }
 
 def get_filters():
-   print('Hello! Let\'s explore some US bikeshare data!')
+   print('Greetings! Let\'s explore some US bikeshare data!')
     
    city = input("Please select which city you would like to study: ").lower()
 
@@ -178,7 +178,7 @@ def main():
       user_stats(df)
       raw_data(df)
 
-      restart = input('\nWould you like to restart? Enter yes or no.\n')
+      restart = input('\nDo you want to restart? Enter yes or no.\n')
       if restart.lower() != 'yes':
          break
 
